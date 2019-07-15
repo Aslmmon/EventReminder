@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   android:orientation="vertical"
+                                   android:layout_width="match_parent"
+                                   app:cardElevation="10dp"
+                                   app:cardCornerRadius="10dp"
+                                   android:layout_margin="10dp"
+                                   android:layout_height="wrap_content">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+        <TextView
+                style="@style/textStyle"
+        android:text="@string/event_name"
+        android:id="@+id/event_name">
+
+        </TextView>
+        <TextView
+                android:text="@string/status"
+                android:id="@+id/statusEvent"
+                style="@style/textStyle"/>
+
+        <TextView
+                android:text="@string/temprature"
+                android:id="@+id/temprature"
+                style="@style/textStyle"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
